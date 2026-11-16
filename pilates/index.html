@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Studio Sign-Up</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<script>
+  /* Settings. Leave apiUrl empty for demo mode; paste the Google Apps Script web app URL to go live (see README). */
+  window.STUDIO = {
+    studioName: 'Pilates Studio',
+    apiUrl: '',
+    demoPin: '1234'
+  };
+</script>
+<script src="core.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
